@@ -9,7 +9,9 @@ This is a game where the player links pairs of identical images in a grid of ima
 
 ## Build
 For instructions to install Qt on ubuntu, see https://wiki.qt.io/Install_Qt_5_on_Ubuntu
+
 Make sure OpenGL libraries are installed following this link.
+
 To build the game, run
 > qmake -project <br />
 > qmake <br />
@@ -17,6 +19,7 @@ To build the game, run
 
 Before running make, make sure that -std=gnu++11 is specified in CXXFLAGS in Makefile. Also add the line 
 > QT += widgets <br />
+
 in directory_name.pro
 
 ## Play
